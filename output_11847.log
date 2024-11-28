@@ -1,0 +1,27 @@
+Running with -np 2
+init master
+Received from 0
+finished calcs
+Execution time: 1483.372097 seconds
+Running with -np 4
+init master
+Received from 0
+Received from 2
+Received from 1
+finished calcs
+Execution time: 1108.801557 seconds
+Running with -np 6
+init master
+Received from 0
+Received from 4
+Received from 1
+Received from 3
+Received from 2
+finished calcs
+Execution time: 685.058681 seconds
+Running with -np 8
+init master
+Received from 0
+Received from 6
+Received from 1
+Received from 5

@@ -17,14 +17,10 @@ WORKDIR="/home/$USER/parallel-mandelbrot"
 mpicc parallel/mandelbrot_mpi.c -o mandelbrot_mpi -lm
 
 # Run test cases
-processes=16
-echo "Running with -np $processes"
-mpirun -np $processes mandelbrot_mpi
+for process in  `seq 34 2 64`
+do
 
-processes=32
-echo "Running with -np $processes"
-mpirun -np $processes mandelbrot_mpi
+echo "Running with -np $process"
 
-processes=64
-echo "Running with -np $processes"
-mpirun --oversubscribe -np $processes mandelbrot_mpi
+mpirun --oversubscribe -np $process mandelbrot_mpi
+done

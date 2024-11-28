@@ -1,0 +1,40 @@
+Running with -np 2
+2 total processes failed to start
+Running with -np 4
+4 total processes failed to start
+Running with -np 6
+6 total processes failed to start
+Running with -np 8
+8 total processes failed to start
+Running with -np 10
+10 total processes failed to start
+Running with -np 12
+12 total processes failed to start
+Running with -np 14
+14 total processes failed to start
+Running with -np 16
+16 total processes failed to start
+Running with -np 18
+Running with -np 20
+Running with -np 22
+Running with -np 24
+Running with -np 26
+Running with -np 28
+Running with -np 30
+Running with -np 32
+Running with -np 34
+Running with -np 36
+Running with -np 38
+Running with -np 40
+Running with -np 42
+Running with -np 44
+Running with -np 46
+Running with -np 48
+Running with -np 50
+Running with -np 52
+Running with -np 54
+Running with -np 56
+Running with -np 58
+Running with -np 60
+Running with -np 62
+Running with -np 64

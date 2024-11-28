@@ -1,0 +1,99 @@
+Running with -np 8
+init master
+Received from 0
+Received from 6
+Received from 1
+Received from 5
+Received from 2
+Received from 4
+Received from 3
+finished calcs
+Execution time: 495.004357 seconds
+Running with -np 10
+init master
+Received from 8
+Received from 0
+Received from 7
+Received from 1
+Received from 6
+Received from 2
+Received from 5
+Received from 3
+Received from 4
+finished calcs
+Execution time: 376.048209 seconds
+Running with -np 12
+init master
+Received from 0
+Received from 10
+Received from 9
+Received from 1
+Received from 2
+Received from 8
+Received from 3
+Received from 7
+Received from 6
+Received from 4
+Received from 5
+finished calcs
+Execution time: 308.864611 seconds
+Running with -np 14
+init master
+Received from 12
+Received from 0
+Received from 1
+Received from 11
+Received from 2
+Received from 10
+Received from 9
+Received from 3
+Received from 4
+Received from 8
+Received from 5
+Received from 7
+Received from 6
+finished calcs
+Execution time: 383.676729 seconds
+Running with -np 16
+init master
+Received from 0
+Received from 14
+Received from 1
+Received from 13
+Received from 12
+Received from 2
+Received from 3
+Received from 11
+Received from 4
+Received from 9
+Received from 5
+Received from 10
+Received from 8
+Received from 7
+Received from 6
+finished calcs
+Execution time: 249.269415 seconds
+Running with -np 18
+Running with -np 20
+Running with -np 22
+Running with -np 24
+Running with -np 26
+Running with -np 28
+Running with -np 30
+Running with -np 32
+Running with -np 34
+Running with -np 36
+Running with -np 38
+Running with -np 40
+Running with -np 42
+Running with -np 44
+Running with -np 46
+Running with -np 48
+Running with -np 50
+Running with -np 52
+Running with -np 54
+Running with -np 56
+Running with -np 58
+Running with -np 60
+Running with -np 62
+Running with -np 64
