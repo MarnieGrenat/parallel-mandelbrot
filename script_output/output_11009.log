@@ -1,0 +1,6 @@
+Running with OMP_NUM_THREADS=8
+finished calcs
+Execution time: 2047.057853 seconds
+Running with OMP_NUM_THREADS=16
+finished calcs
+Execution time: 2376.674517 seconds
