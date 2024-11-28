@@ -1,0 +1,53 @@
+Running with -np 2
+init master
+Received from 0
+finished calcs
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    atlantica02
+  Remote host:   atlantica03
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+Running with -np 4
+init master
+Received from 0
+Received from 2
+Received from 1
+finished calcs
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    atlantica02
+  Remote host:   atlantica03
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+Running with -np 6
+init master
+Received from 0
+Received from 4
+Received from 1
+Received from 3
+Received from 2
+finished calcs
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    atlantica02
+  Remote host:   atlantica03
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+Running with -np 8
+init master
+Received from 0
+Received from 6
+Received from 1
+Received from 5
+Received from 2
+Received from 4

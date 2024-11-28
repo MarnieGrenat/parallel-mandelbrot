@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=mpi_test_cases            # Job name
-#SBATCH --nodes=2                            # Specify the number of nodes
-#SBATCH --ntasks=32                          # Max number of tasks (use mpirun --oversubscribe for more)
+#SBATCH --nodes=1                            # Specify the number of nodes
+#SBATCH --ntasks=16                          # Max number of tasks (use mpirun --oversubscribe for more)
 #SBATCH --cpus-per-task=1                    # Number of CPU per tasks
 #SBATCH --time=01:00:00                      # Max total job runtime
 #SBATCH --output=output_%j.log               # Log file (one for the whole job, %j is the job ID)

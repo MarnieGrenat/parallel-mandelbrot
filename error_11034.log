@@ -1,0 +1,69 @@
+[atlantica02:469543] *** Process received signal ***
+[atlantica02:469543] Signal: Segmentation fault (11)
+[atlantica02:469543] Signal code: Address not mapped (1)
+[atlantica02:469543] Failing at address: 0xc0
+[atlantica02:469543] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7fcf4c61c090]
+[atlantica02:469543] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x768a6)[0x7fcf4c64f8a6]
+[atlantica02:469543] [ 2] /lib/x86_64-linux-gnu/libc.so.6(_IO_fprintf+0x9a)[0x7fcf4c63ac6a]
+[atlantica02:469543] [ 3] mandelbrot_mpi(+0x18a9)[0x55c5cf60b8a9]
+[atlantica02:469543] [ 4] mandelbrot_mpi(+0x1ae9)[0x55c5cf60bae9]
+[atlantica02:469543] [ 5] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7fcf4c5fd083]
+[atlantica02:469543] [ 6] mandelbrot_mpi(+0x128e)[0x55c5cf60b28e]
+[atlantica02:469543] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node atlantica02 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[atlantica02:469677] *** Process received signal ***
+[atlantica02:469677] Signal: Segmentation fault (11)
+[atlantica02:469677] Signal code: Address not mapped (1)
+[atlantica02:469677] Failing at address: 0xc0
+[atlantica02:469677] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7fd6976a3090]
+[atlantica02:469677] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x768a6)[0x7fd6976d68a6]
+[atlantica02:469677] [ 2] /lib/x86_64-linux-gnu/libc.so.6(_IO_fprintf+0x9a)[0x7fd6976c1c6a]
+[atlantica02:469677] [ 3] mandelbrot_mpi(+0x18a9)[0x5580b5de78a9]
+[atlantica02:469677] [ 4] mandelbrot_mpi(+0x1ae9)[0x5580b5de7ae9]
+[atlantica02:469677] [ 5] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7fd697684083]
+[atlantica02:469677] [ 6] mandelbrot_mpi(+0x128e)[0x5580b5de728e]
+[atlantica02:469677] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node atlantica02 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[atlantica02:469760] *** Process received signal ***
+[atlantica02:469760] Signal: Segmentation fault (11)
+[atlantica02:469760] Signal code: Address not mapped (1)
+[atlantica02:469760] Failing at address: 0xc0
+[atlantica02:469760] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7f7b80db3090]
+[atlantica02:469760] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x768a6)[0x7f7b80de68a6]
+[atlantica02:469760] [ 2] /lib/x86_64-linux-gnu/libc.so.6(_IO_fprintf+0x9a)[0x7f7b80dd1c6a]
+[atlantica02:469760] [ 3] mandelbrot_mpi(+0x18a9)[0x5619afb568a9]
+[atlantica02:469760] [ 4] mandelbrot_mpi(+0x1ae9)[0x5619afb56ae9]
+[atlantica02:469760] [ 5] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f7b80d94083]
+[atlantica02:469760] [ 6] mandelbrot_mpi(+0x128e)[0x5619afb5628e]
+[atlantica02:469760] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node atlantica02 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+slurmstepd-atlantica02: error: *** JOB 11034 ON atlantica02 CANCELLED AT 2024-11-28T02:10:30 DUE TO TIME LIMIT ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[9882,0],0] on node atlantica02
+  Remote daemon: [[9882,0],1] on node atlantica03
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------

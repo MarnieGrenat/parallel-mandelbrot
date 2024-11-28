@@ -1,0 +1,32 @@
+Running with -np 2
+init master
+Received from 0
+finished calcs
+Running with -np 4
+init master
+Received from 2
+Received from 0
+Received from 1
+finished calcs
+Running with -np 6
+init master
+Received from 0
+Received from 4
+Received from 3
+Received from 1
+Received from 2
+finished calcs
+Running with -np 8
+init master
+Received from 0
+Received from 6
+Received from 5
+Received from 1
+Received from 2
+Received from 4
+Received from 3
+finished calcs
+Running with -np 10
+init master
+Received from 8
+Received from 0

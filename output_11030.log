@@ -1,0 +1,64 @@
+Running with -np 2
+mpirun --oversubscribe -np 2 mandelbrot_mpi
+Running with -np 4
+mpirun --oversubscribe -np 4 mandelbrot_mpi
+Running with -np 6
+mpirun --oversubscribe -np 6 mandelbrot_mpi
+Running with -np 8
+mpirun --oversubscribe -np 8 mandelbrot_mpi
+Running with -np 10
+mpirun --oversubscribe -np 10 mandelbrot_mpi
+Running with -np 12
+mpirun --oversubscribe -np 12 mandelbrot_mpi
+Running with -np 14
+mpirun --oversubscribe -np 14 mandelbrot_mpi
+Running with -np 16
+mpirun --oversubscribe -np 16 mandelbrot_mpi
+Running with -np 18
+mpirun --oversubscribe -np 18 mandelbrot_mpi
+Running with -np 20
+mpirun --oversubscribe -np 20 mandelbrot_mpi
+Running with -np 22
+mpirun --oversubscribe -np 22 mandelbrot_mpi
+Running with -np 24
+mpirun --oversubscribe -np 24 mandelbrot_mpi
+Running with -np 26
+mpirun --oversubscribe -np 26 mandelbrot_mpi
+Running with -np 28
+mpirun --oversubscribe -np 28 mandelbrot_mpi
+Running with -np 30
+mpirun --oversubscribe -np 30 mandelbrot_mpi
+Running with -np 32
+mpirun --oversubscribe -np 32 mandelbrot_mpi
+Running with -np 34
+mpirun --oversubscribe -np 34 mandelbrot_mpi
+Running with -np 36
+mpirun --oversubscribe -np 36 mandelbrot_mpi
+Running with -np 38
+mpirun --oversubscribe -np 38 mandelbrot_mpi
+Running with -np 40
+mpirun --oversubscribe -np 40 mandelbrot_mpi
+Running with -np 42
+mpirun --oversubscribe -np 42 mandelbrot_mpi
+Running with -np 44
+mpirun --oversubscribe -np 44 mandelbrot_mpi
+Running with -np 46
+mpirun --oversubscribe -np 46 mandelbrot_mpi
+Running with -np 48
+mpirun --oversubscribe -np 48 mandelbrot_mpi
+Running with -np 50
+mpirun --oversubscribe -np 50 mandelbrot_mpi
+Running with -np 52
+mpirun --oversubscribe -np 52 mandelbrot_mpi
+Running with -np 54
+mpirun --oversubscribe -np 54 mandelbrot_mpi
+Running with -np 56
+mpirun --oversubscribe -np 56 mandelbrot_mpi
+Running with -np 58
+mpirun --oversubscribe -np 58 mandelbrot_mpi
+Running with -np 60
+mpirun --oversubscribe -np 60 mandelbrot_mpi
+Running with -np 62
+mpirun --oversubscribe -np 62 mandelbrot_mpi
+Running with -np 64
+mpirun --oversubscribe -np 64 mandelbrot_mpi
