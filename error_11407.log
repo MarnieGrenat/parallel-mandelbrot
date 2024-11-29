@@ -1,0 +1,77 @@
+[atlantica13:355267] *** Process received signal ***
+[atlantica13:355267] Signal: Segmentation fault (11)
+[atlantica13:355267] Signal code: Address not mapped (1)
+[atlantica13:355267] Failing at address: 0xc0
+[atlantica13:355267] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7f92d4db9090]
+[atlantica13:355267] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x768a6)[0x7f92d4dec8a6]
+[atlantica13:355267] [ 2] /lib/x86_64-linux-gnu/libc.so.6(_IO_fprintf+0x9a)[0x7f92d4dd7c6a]
+[atlantica13:355267] [ 3] mandelbrot_mpi(+0x18a9)[0x55a248dc88a9]
+[atlantica13:355267] [ 4] mandelbrot_mpi(+0x1ae9)[0x55a248dc8ae9]
+[atlantica13:355267] [ 5] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f92d4d9a083]
+[atlantica13:355267] [ 6] mandelbrot_mpi(+0x128e)[0x55a248dc828e]
+[atlantica13:355267] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 355267 on node atlantica13 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[atlantica13:355373] *** Process received signal ***
+[atlantica13:355373] Signal: Segmentation fault (11)
+[atlantica13:355373] Signal code: Address not mapped (1)
+[atlantica13:355373] Failing at address: 0xc0
+[atlantica13:355373] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7f8871b03090]
+[atlantica13:355373] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x768a6)[0x7f8871b368a6]
+[atlantica13:355373] [ 2] /lib/x86_64-linux-gnu/libc.so.6(_IO_fprintf+0x9a)[0x7f8871b21c6a]
+[atlantica13:355373] [ 3] mandelbrot_mpi(+0x18a9)[0x555ceaa758a9]
+[atlantica13:355373] [ 4] mandelbrot_mpi(+0x1ae9)[0x555ceaa75ae9]
+[atlantica13:355373] [ 5] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f8871ae4083]
+[atlantica13:355373] [ 6] mandelbrot_mpi(+0x128e)[0x555ceaa7528e]
+[atlantica13:355373] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 355373 on node atlantica13 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[atlantica13:355502] *** Process received signal ***
+[atlantica13:355502] Signal: Segmentation fault (11)
+[atlantica13:355502] Signal code: Address not mapped (1)
+[atlantica13:355502] Failing at address: 0xc0
+[atlantica13:355502] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7f37acbcf090]
+[atlantica13:355502] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x768a6)[0x7f37acc028a6]
+[atlantica13:355502] [ 2] /lib/x86_64-linux-gnu/libc.so.6(_IO_fprintf+0x9a)[0x7f37acbedc6a]
+[atlantica13:355502] [ 3] mandelbrot_mpi(+0x18a9)[0x556332e0a8a9]
+[atlantica13:355502] [ 4] mandelbrot_mpi(+0x1ae9)[0x556332e0aae9]
+[atlantica13:355502] [ 5] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f37acbb0083]
+[atlantica13:355502] [ 6] mandelbrot_mpi(+0x128e)[0x556332e0a28e]
+[atlantica13:355502] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 355502 on node atlantica13 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[atlantica13:355571] *** Process received signal ***
+[atlantica13:355571] Signal: Segmentation fault (11)
+[atlantica13:355571] Signal code: Address not mapped (1)
+[atlantica13:355571] Failing at address: 0xc0
+[atlantica13:355571] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7fe395cb7090]
+[atlantica13:355571] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x768a6)[0x7fe395cea8a6]
+[atlantica13:355571] [ 2] /lib/x86_64-linux-gnu/libc.so.6(_IO_fprintf+0x9a)[0x7fe395cd5c6a]
+[atlantica13:355571] [ 3] mandelbrot_mpi(+0x18a9)[0x5590d6d428a9]
+[atlantica13:355571] [ 4] mandelbrot_mpi(+0x1ae9)[0x5590d6d42ae9]
+[atlantica13:355571] [ 5] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7fe395c98083]
+[atlantica13:355571] [ 6] mandelbrot_mpi(+0x128e)[0x5590d6d4228e]
+[atlantica13:355571] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 355571 on node atlantica13 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+slurmstepd-atlantica13: error: *** JOB 11407 ON atlantica13 CANCELLED AT 2024-11-29T00:25:37 DUE TO TIME LIMIT ***

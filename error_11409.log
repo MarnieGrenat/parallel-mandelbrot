@@ -1,0 +1,253 @@
+[atlantica15:333301] *** Process received signal ***
+[atlantica15:333301] Signal: Segmentation fault (11)
+[atlantica15:333301] Signal code: Address not mapped (1)
+[atlantica15:333301] Failing at address: 0xc0
+[atlantica15:333301] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7f2373c1a090]
+[atlantica15:333301] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x768a6)[0x7f2373c4d8a6]
+[atlantica15:333301] [ 2] /lib/x86_64-linux-gnu/libc.so.6(_IO_fprintf+0x9a)[0x7f2373c38c6a]
+[atlantica15:333301] [ 3] mandelbrot_mpi(+0x18a9)[0x562a028e28a9]
+[atlantica15:333301] [ 4] mandelbrot_mpi(+0x1ae9)[0x562a028e2ae9]
+[atlantica15:333301] [ 5] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f2373bfb083]
+[atlantica15:333301] [ 6] mandelbrot_mpi(+0x128e)[0x562a028e228e]
+[atlantica15:333301] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node atlantica15 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[atlantica15:333408] *** Process received signal ***
+[atlantica15:333408] Signal: Segmentation fault (11)
+[atlantica15:333408] Signal code: Address not mapped (1)
+[atlantica15:333408] Failing at address: 0xc0
+[atlantica15:333408] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7f837c59e090]
+[atlantica15:333408] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x768a6)[0x7f837c5d18a6]
+[atlantica15:333408] [ 2] /lib/x86_64-linux-gnu/libc.so.6(_IO_fprintf+0x9a)[0x7f837c5bcc6a]
+[atlantica15:333408] [ 3] mandelbrot_mpi(+0x18a9)[0x5634be7a58a9]
+[atlantica15:333408] [ 4] mandelbrot_mpi(+0x1ae9)[0x5634be7a5ae9]
+[atlantica15:333408] [ 5] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f837c57f083]
+[atlantica15:333408] [ 6] mandelbrot_mpi(+0x128e)[0x5634be7a528e]
+[atlantica15:333408] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node atlantica15 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[atlantica15:333532] *** Process received signal ***
+[atlantica15:333532] Signal: Segmentation fault (11)
+[atlantica15:333532] Signal code: Address not mapped (1)
+[atlantica15:333532] Failing at address: 0xc0
+[atlantica15:333532] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7f0094dd8090]
+[atlantica15:333532] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x768a6)[0x7f0094e0b8a6]
+[atlantica15:333532] [ 2] /lib/x86_64-linux-gnu/libc.so.6(_IO_fprintf+0x9a)[0x7f0094df6c6a]
+[atlantica15:333532] [ 3] mandelbrot_mpi(+0x18a9)[0x562569ed18a9]
+[atlantica15:333532] [ 4] mandelbrot_mpi(+0x1ae9)[0x562569ed1ae9]
+[atlantica15:333532] [ 5] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7f0094db9083]
+[atlantica15:333532] [ 6] mandelbrot_mpi(+0x128e)[0x562569ed128e]
+[atlantica15:333532] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node atlantica15 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[atlantica15:333604] *** Process received signal ***
+[atlantica15:333604] Signal: Segmentation fault (11)
+[atlantica15:333604] Signal code: Address not mapped (1)
+[atlantica15:333604] Failing at address: 0xc0
+[atlantica15:333604] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x43090)[0x7fc08fd0c090]
+[atlantica15:333604] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x768a6)[0x7fc08fd3f8a6]
+[atlantica15:333604] [ 2] /lib/x86_64-linux-gnu/libc.so.6(_IO_fprintf+0x9a)[0x7fc08fd2ac6a]
+[atlantica15:333604] [ 3] mandelbrot_mpi(+0x18a9)[0x55a25126d8a9]
+[atlantica15:333604] [ 4] mandelbrot_mpi(+0x1ae9)[0x55a25126dae9]
+[atlantica15:333604] [ 5] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf3)[0x7fc08fced083]
+[atlantica15:333604] [ 6] mandelbrot_mpi(+0x128e)[0x55a25126d28e]
+[atlantica15:333604] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node atlantica15 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+An ORTE daemon has unexpectedly failed after launch and before
+communicating back to mpirun. This could be caused by a number
+of factors, including an inability to create a connection back
+to mpirun due to a lack of common network interfaces and/or no
+route found between them. Please check network connectivity
+(including firewalls and network routing requirements).
+--------------------------------------------------------------------------
+slurmstepd-atlantica15: error: *** JOB 11409 ON atlantica15 CANCELLED AT 2024-11-29T00:25:37 DUE TO TIME LIMIT ***

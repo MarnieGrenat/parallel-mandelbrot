@@ -1,0 +1,87 @@
+Running with -np 2
+init master
+Received from 0
+finished calcs
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    atlantica15
+  Remote host:   atlantica16
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+Running with -np 4
+init master
+Received from 0
+Received from 2
+Received from 1
+finished calcs
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    atlantica15
+  Remote host:   atlantica16
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+Running with -np 6
+init master
+Received from 4
+Received from 0
+Received from 1
+Received from 3
+Received from 2
+finished calcs
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    atlantica15
+  Remote host:   atlantica16
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+Running with -np 8
+init master
+Received from 0
+Received from 6
+Received from 1
+Received from 5
+Received from 2
+Received from 4
+Received from 3
+finished calcs
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    atlantica15
+  Remote host:   atlantica16
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+Running with -np 10
+Running with -np 12
+Running with -np 14
+Running with -np 16
+Running with -np 18
+Running with -np 20
+Running with -np 22
+Running with -np 24
+Running with -np 26
+Running with -np 28
+Running with -np 30
+Running with -np 32
+Running with -np 34
+Running with -np 36
+Running with -np 38
+Running with -np 40
+Running with -np 42
+Running with -np 44
+Running with -np 46
+Running with -np 48
+Running with -np 50
+Running with -np 52
+Running with -np 54
