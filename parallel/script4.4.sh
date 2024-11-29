@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=mpi_test_cases            # Job name
-#SBATCH --nodes=1                            # Specify the number of nodes
-#SBATCH --ntasks=16                          # Max number of tasks (use mpirun --oversubscribe for more)
+#SBATCH --nodes=2                            # Specify the number of nodes
+#SBATCH --ntasks=64                          # Max number of tasks (use mpirun --oversubscribe for more)
 #SBATCH --cpus-per-task=1                    # Number of CPU per tasks
 #SBATCH --time=01:00:00                      # Max total job runtime
 #SBATCH --output=output_%j.log               # Log file (one for the whole job, %j is the job ID)
@@ -17,10 +17,14 @@ WORKDIR="/home/$USER/parallel-mandelbrot"
 mpicc parallel/mandelbrot_mpi.c -o mandelbrot_mpi -lm
 
 # Run test cases
-for process in  `seq 2 2 64`
-do
+processes=20
+echo "Running with -np $processes"
+mpirun --oversubscribe -np $processes mandelbrot_mpi
 
-echo "Running with -np $process"
+processes=22
+echo "Running with -np $processes"
+mpirun --oversubscribe -np $processes mandelbrot_mpi
 
-mpirun --oversubscribe -np $process mandelbrot_mpi
-done
+processes=24
+echo "Running with -np $processes"
+mpirun --oversubscribe -np $processes mandelbrot_mpi
